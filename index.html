@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#082841">
+  <meta name="description" content="Conoce el menú de Pizza's Bob: pizzas, hamburguesas, perros calientes, salchipapas, especiales y bebidas en Soacha. Arma tu pedido y envíalo por WhatsApp.">
+  <title>Pizza's Bob | Un antojo fuera de serie</title>
+  <link rel="icon" href="assets/img/logo.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Ir al menú</a>
+  <div class="announcement"><span>¡El antojo tiene nombre!</span><span class="announcement-star">✳</span><span>Pizza's Bob · Soacha</span><span class="announcement-star">✳</span><span>¿Qué se te antoja hoy?</span></div>
+  <header class="site-header" id="inicio">
+    <div class="container nav-bar">
+      <a class="brand" href="#inicio" aria-label="Pizza's Bob, inicio">
+        <img src="assets/img/logo.webp" alt="Logo de Pizza's Bob" width="52" height="52">
+        <span>PIZZA'S <b>BOB</b><small>SOACHA · COLOMBIA</small></span>
+      </a>
+      <nav class="site-nav" id="mainNav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#destacados">Explora</a>
+        <a href="#menu">La carta</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="cart-trigger" id="openCart" type="button" aria-label="Abrir carrito de pedidos"><span class="cart-icon" aria-hidden="true">▣</span><span>Mi pedido</span><span class="cart-badge" id="cartCount">0</span></button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bubble bubble-one"></div><div class="hero-bubble bubble-two"></div><div class="hero-bubble bubble-three"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> UNA CARTA LLENA DE ANTOJOS</div>
+          <h1 id="hero-title">¡Aquí el<br><em>antojo</em> se<br>pone <span class="hero-highlight">BUENO!</span></h1>
+          <p>Pizzas, hamburguesas, perros calientes y mucho más. Explora la carta de Pizza's Bob, elige tus favoritos y prepara tu pedido en pocos pasos.</p>
+          <div class="hero-buttons"><a href="#menu" class="btn btn-lime">Ver el menú <span aria-hidden="true">↘</span></a><a href="https://wa.me/573213013467" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Hablar por WhatsApp</a></div>
+          <div class="hero-signature"><span class="hero-squiggle" aria-hidden="true">〰</span><span>Tu próxima elección favorita<br><strong>está a un clic.</strong></span></div>
+        </div>
+        <div class="hero-art" aria-label="Fotografía de una hamburguesa de Pizza's Bob">
+          <div class="hero-orbit"></div>
+          <div class="hero-photo"><img src="assets/img/burger-hero.webp" alt="Hamburguesa de Pizza's Bob con patacón, queso y vegetales" fetchpriority="high"></div>
+          <div class="hero-sticker sticker-top"><span>100%</span><small>ANTOJO</small></div>
+          <div class="hero-sticker sticker-bottom">¡A COMER! <span aria-hidden="true">✳</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom-line"><div class="container"><span>SABOR A TU ESTILO</span><span class="little-flower" aria-hidden="true">✳</span><span>COMBINA TUS FAVORITOS</span><span class="little-flower" aria-hidden="true">✳</span><span>HAZ TU PEDIDO</span></div></div>
+    </section>
+
+    <section class="intro-section" id="destacados" aria-labelledby="intro-title">
+      <div class="container">
+        <div class="section-topline"><span class="section-kicker">PARA TODOS LOS ANTOJOS</span><span class="tiny-line"></span><span class="section-side-label">SABORES PARA EXPLORAR</span></div>
+        <div class="section-heading-row"><h2 id="intro-title">¿Qué se te <span>antoja?</span></h2><p>De una buena pizza a una hamburguesa bien cargada. Elige por dónde empezar.</p></div>
+        <div class="feature-grid">
+          <a class="feature-card feature-pizza" href="#menu" data-go-category="Pizzas"><img src="assets/img/pizza-bbq.webp" alt="Pizza preparada por Pizza's Bob" loading="lazy"><div class="feature-shade"></div><div class="feature-content"><span class="feature-index">01 / PARA COMPARTIR</span><h3>PIZZAS</h3><span class="feature-action">Explorar pizzas <b aria-hidden="true">↗</b></span></div></a>
+          <a class="feature-card feature-burger" href="#menu" data-go-category="Hamburguesas de res"><img src="assets/img/burger-super.webp" alt="Hamburguesa de Pizza's Bob con carne, vegetales y salsas" loading="lazy"><div class="feature-shade"></div><div class="feature-content"><span class="feature-index">02 / BIEN CARGADAS</span><h3>BURGERS</h3><span class="feature-action">Explorar hamburguesas <b aria-hidden="true">↗</b></span></div></a>
+          <a class="feature-card feature-perro" href="#menu" data-go-category="Perros calientes"><img src="assets/img/perro-super.webp" alt="Perro caliente preparado por Pizza's Bob" loading="lazy"><div class="feature-shade"></div><div class="feature-content"><span class="feature-index">03 / TODO EL SABOR</span><h3>PERROS</h3><span class="feature-action">Explorar perros <b aria-hidden="true">↗</b></span></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="menu-heading"><div><span class="section-kicker">ELIGE, AGREGA Y DISFRUTA</span><h2 id="menu-title">Nuestra <span>carta.</span></h2><p>Precios en pesos colombianos. El valor del domicilio, si aplica, se confirma directamente con el establecimiento.</p></div><div class="menu-doodle" aria-hidden="true">✳</div></div>
+        <div class="catalog-panel">
+          <div class="catalog-toolbar">
+            <label class="search-box" for="catalogSearch"><span aria-hidden="true">⌕</span><input id="catalogSearch" type="search" placeholder="Buscar hamburguesas, pizzas, bebidas..." autocomplete="off"><kbd>Buscar</kbd></label>
+            <div class="sort-wrap"><label for="sortProducts">Ordenar</label><select id="sortProducts"><option value="featured">En orden de la carta</option><option value="priceAsc">Precio: menor a mayor</option><option value="priceDesc">Precio: mayor a menor</option><option value="name">Nombre: A–Z</option></select></div>
+          </div>
+          <div class="category-filters" id="categoryFilters" role="group" aria-label="Filtrar productos por categoría"></div>
+          <div class="catalog-result-bar"><span id="resultCount" aria-live="polite">Cargando la carta...</span><span class="photo-note">Las fotografías son ilustrativas de cada categoría.</span></div>
+          <div class="product-grid" id="productGrid" aria-live="polite"></div>
+          <div class="catalog-empty" id="catalogEmpty" hidden><h3>No encontramos resultados</h3><p>Prueba con otra búsqueda o cambia de categoría.</p><button type="button" class="btn btn-dark" id="clearFilters">Ver toda la carta</button></div>
+          <div class="catalog-footer"><button type="button" class="btn btn-load" id="loadMore" hidden>Ver más productos <span aria-hidden="true">↓</span></button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="galeria" aria-labelledby="gallery-title">
+      <div class="container"><div class="section-topline"><span class="section-kicker">ASÍ SE VE EL ANTOJO</span><span class="tiny-line"></span><span class="section-side-label">FOTOS DEL NEGOCIO</span></div><div class="section-heading-row"><h2 id="gallery-title">Mucho sabor.<br><span>Cero aburrimiento.</span></h2><p>Un vistazo a algunas de las preparaciones de Pizza's Bob.</p></div>
+        <div class="gallery-grid">
+          <button class="gallery-item big" data-lightbox="assets/img/burger-texana.webp" data-alt="Hamburguesa de Pizza's Bob"><img src="assets/img/burger-texana.webp" alt="Hamburguesa con vegetales y salsas" loading="lazy"><span>Ver fotografía <b aria-hidden="true">↗</b></span></button>
+          <button class="gallery-item" data-lightbox="assets/img/salchipapa-grande.webp" data-alt="Salchipapa de Pizza's Bob"><img src="assets/img/salchipapa-grande.webp" alt="Salchipapa con salsas y variedad de ingredientes" loading="lazy"><span>Ver fotografía <b aria-hidden="true">↗</b></span></button>
+          <button class="gallery-item" data-lightbox="assets/img/malteada-brownie.webp" data-alt="Malteada de Pizza's Bob"><img src="assets/img/malteada-brownie.webp" alt="Malteada de chocolate con brownie y crema" loading="lazy"><span>Ver fotografía <b aria-hidden="true">↗</b></span></button>
+          <button class="gallery-item" data-lightbox="assets/img/pizza-especial.webp" data-alt="Pizza de Pizza's Bob"><img src="assets/img/pizza-especial.webp" alt="Pizza de Pizza's Bob con queso y toppings" loading="lazy"><span>Ver fotografía <b aria-hidden="true">↗</b></span></button>
+          <button class="gallery-item" data-lightbox="assets/img/perro-especial.webp" data-alt="Perro caliente de Pizza's Bob"><img src="assets/img/perro-especial.webp" alt="Perro caliente con queso y salsas" loading="lazy"><span>Ver fotografía <b aria-hidden="true">↗</b></span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contacto" aria-labelledby="cta-title"><div class="container"><div class="cta-box"><div class="cta-orb orb-a"></div><div class="cta-orb orb-b"></div><div class="cta-content"><span class="cta-overline">¿YA ES HORA DE COMER?</span><h2 id="cta-title">No lo pienses tanto.<br><em>¡Pídelo!</em></h2><p>Arma tu pedido desde la carta y compártelo por WhatsApp. El establecimiento te confirmará disponibilidad, entrega y valor final.</p><div class="cta-buttons"><button type="button" id="ctaCart" class="btn btn-lime">Armar mi pedido</button><a class="btn btn-outline" href="https://wa.me/573213013467" target="_blank" rel="noopener noreferrer">WhatsApp: 321 301 3467</a></div></div><div class="cta-mark" aria-hidden="true">BOB<span>!</span></div></div>
+      <div class="contact-info"><div><strong>Pizza's Bob</strong><span>Soacha, Cundinamarca, Colombia</span></div><div><strong>Domicilios y consultas</strong><a href="https://wa.me/573213013467" target="_blank" rel="noopener noreferrer">+57 321 301 3467</a></div><div><strong>Dirección y horario</strong><span>Consulta estos datos directamente con el negocio.</span></div></div>
+    </div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-content"><div><span class="footer-wordmark">PIZZA'S <b>BOB</b></span><p>Los mejores planes empiezan con hambre.</p></div><div class="footer-links"><a href="#inicio">Inicio</a><a href="#menu">Carta</a><a href="#galeria">Galería</a><a href="#contacto">Contacto</a></div><p class="footer-bottom">© <span id="year"></span> Pizza's Bob. Menú sujeto a confirmación del establecimiento.</p></div></footer>
+
+  <button class="floating-cart" id="floatingCart" type="button" aria-label="Ver carrito de pedidos"><span aria-hidden="true">▣</span><span id="floatingCount">0</span></button>
+  <div class="drawer-overlay" id="cartOverlay" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle" aria-hidden="true"><div class="drawer-header"><div><span class="section-kicker">CASI LISTO PARA PEDIR</span><h2 id="cartTitle">Tu pedido</h2></div><button class="icon-button" id="closeCart" type="button" aria-label="Cerrar carrito">×</button></div><div class="drawer-content"><div id="cartItems"></div><div id="cartEmpty" class="cart-empty"><span class="cart-empty-icon">▣</span><h3>Tu carrito está esperando</h3><p>Agrega tus favoritos desde nuestra carta.</p></div></div><div class="cart-checkout"><div class="cart-total"><span>Subtotal de productos</span><strong id="cartTotal">$0</strong></div><p class="cart-notice">El valor del domicilio no está incluido. El pedido y el total se confirman por WhatsApp.</p><div class="checkout-fields"><label>Tu nombre (opcional)<input id="customerName" maxlength="70" autocomplete="name" placeholder="¿Cómo te llamas?"></label><label>Dirección o indicaciones (opcional)<textarea id="customerAddress" maxlength="300" rows="2" placeholder="Dirección, referencias o detalles del pedido"></textarea></label></div><button id="sendOrder" class="btn btn-whatsapp" type="button" disabled>Enviar pedido por WhatsApp <span aria-hidden="true">↗</span></button></div></aside>
+  <dialog id="optionsDialog" class="options-dialog"><form method="dialog" id="optionsForm"><button class="icon-button options-close" type="submit" value="cancel" aria-label="Cerrar">×</button><span class="section-kicker">PERSONALIZA TU PRODUCTO</span><h3 id="optionsTitle">Elige una opción</h3><label id="optionsLabel" for="optionsSelect">Sabor</label><select id="optionsSelect" required></select><div class="options-actions"><button type="submit" value="cancel" class="btn btn-soft">Cancelar</button><button type="button" id="confirmOption" class="btn btn-dark">Agregar al pedido</button></div></form></dialog>
+  <dialog id="photoDialog" class="photo-dialog"><button type="button" class="icon-button photo-close" id="closePhoto" aria-label="Cerrar foto">×</button><img id="photoFull" alt="Fotografía ampliada"><p id="photoCaption"></p></dialog>
+</body>
+</html>

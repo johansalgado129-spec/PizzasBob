@@ -1,0 +1,628 @@
+{
+  "currency": "COP",
+  "lastUpdated": "2026-11-19",
+  "products": [
+    {
+      "id": "pb-001",
+      "category": "Pizzas",
+      "name": "Pizza Hawaiana · familiar",
+      "price": 54000,
+      "description": "Presentación familiar.",
+      "image": "assets/img/pizza.webp",
+      "available": true
+    },
+    {
+      "id": "pb-002",
+      "category": "Pizzas",
+      "name": "Pizza Hawaiana · small",
+      "price": 40000,
+      "description": "Presentación small.",
+      "image": "assets/img/pizza-especial.webp",
+      "available": true
+    },
+    {
+      "id": "pb-003",
+      "category": "Pizzas",
+      "name": "Pizza Champiñones · familiar",
+      "price": 54000,
+      "description": "Presentación familiar.",
+      "image": "assets/img/pizza.webp",
+      "available": true
+    },
+    {
+      "id": "pb-004",
+      "category": "Pizzas",
+      "name": "Pizza Champiñones · small",
+      "price": 40000,
+      "description": "Presentación small.",
+      "image": "assets/img/pizza-especial.webp",
+      "available": true
+    },
+    {
+      "id": "pb-005",
+      "category": "Pizzas",
+      "name": "Pizza Carnes · familiar",
+      "price": 54000,
+      "description": "Presentación familiar.",
+      "image": "assets/img/pizza.webp",
+      "available": true
+    },
+    {
+      "id": "pb-006",
+      "category": "Pizzas",
+      "name": "Pizza Carnes · small",
+      "price": 40000,
+      "description": "Presentación small.",
+      "image": "assets/img/pizza-especial.webp",
+      "available": true
+    },
+    {
+      "id": "pb-007",
+      "category": "Pizzas",
+      "name": "Pizza Mexicana · familiar",
+      "price": 54000,
+      "description": "Presentación familiar.",
+      "image": "assets/img/pizza.webp",
+      "available": true
+    },
+    {
+      "id": "pb-008",
+      "category": "Pizzas",
+      "name": "Pizza Mexicana · small",
+      "price": 40000,
+      "description": "Presentación small.",
+      "image": "assets/img/pizza-especial.webp",
+      "available": true
+    },
+    {
+      "id": "pb-009",
+      "category": "Pizzas",
+      "name": "Pizza Criolla · familiar",
+      "price": 54000,
+      "description": "Presentación familiar.",
+      "image": "assets/img/pizza.webp",
+      "available": true
+    },
+    {
+      "id": "pb-010",
+      "category": "Pizzas",
+      "name": "Pizza Criolla · small",
+      "price": 40000,
+      "description": "Presentación small.",
+      "image": "assets/img/pizza-especial.webp",
+      "available": true
+    },
+    {
+      "id": "pb-011",
+      "category": "Pizzas",
+      "name": "Pizza Napolitana · familiar",
+      "price": 54000,
+      "description": "Presentación familiar.",
+      "image": "assets/img/pizza.webp",
+      "available": true
+    },
+    {
+      "id": "pb-012",
+      "category": "Pizzas",
+      "name": "Pizza Napolitana · small",
+      "price": 40000,
+      "description": "Presentación small.",
+      "image": "assets/img/pizza-especial.webp",
+      "available": true
+    },
+    {
+      "id": "pb-013",
+      "category": "Pizzas",
+      "name": "Pizza Especial de la casa · familiar",
+      "price": 58000,
+      "description": "Presentación familiar.",
+      "image": "assets/img/pizza-bbq.webp",
+      "available": true
+    },
+    {
+      "id": "pb-014",
+      "category": "Pizzas",
+      "name": "Pizza Especial de la casa · small",
+      "price": 46000,
+      "description": "Presentación small.",
+      "image": "assets/img/pizza-especial.webp",
+      "available": true
+    },
+    {
+      "id": "pb-015",
+      "category": "Pizzas",
+      "name": "Pizza Champiñón, pollo y atún · familiar",
+      "price": 58000,
+      "description": "Presentación familiar.",
+      "image": "assets/img/pizza-bbq.webp",
+      "available": true
+    },
+    {
+      "id": "pb-016",
+      "category": "Pizzas",
+      "name": "Pizza Champiñón, pollo y atún · small",
+      "price": 46000,
+      "description": "Presentación small.",
+      "image": "assets/img/pizza-especial.webp",
+      "available": true
+    },
+    {
+      "id": "pb-017",
+      "category": "Pizzas",
+      "name": "Pizza Burger · familiar",
+      "price": 58000,
+      "description": "Presentación familiar.",
+      "image": "assets/img/pizza-bbq.webp",
+      "available": true
+    },
+    {
+      "id": "pb-018",
+      "category": "Pizzas",
+      "name": "Pizza Burger · small",
+      "price": 46000,
+      "description": "Presentación small.",
+      "image": "assets/img/pizza-especial.webp",
+      "available": true
+    },
+    {
+      "id": "pb-019",
+      "category": "Pizzas",
+      "name": "Porción de pizza Hawaiana",
+      "price": 9000,
+      "description": "Porción individual.",
+      "image": "assets/img/pizza-porcion.webp",
+      "available": true
+    },
+    {
+      "id": "pb-020",
+      "category": "Pizzas",
+      "name": "Porción de pizza Champiñones",
+      "price": 9000,
+      "description": "Porción individual.",
+      "image": "assets/img/pizza-porcion.webp",
+      "available": true
+    },
+    {
+      "id": "pb-021",
+      "category": "Pizzas",
+      "name": "Porción de pizza Carnes",
+      "price": 9000,
+      "description": "Porción individual.",
+      "image": "assets/img/pizza-porcion.webp",
+      "available": true
+    },
+    {
+      "id": "pb-022",
+      "category": "Pizzas",
+      "name": "Porción de pizza Mexicana",
+      "price": 9000,
+      "description": "Porción individual.",
+      "image": "assets/img/pizza-porcion.webp",
+      "available": true
+    },
+    {
+      "id": "pb-023",
+      "category": "Pizzas",
+      "name": "Porción de pizza Criolla",
+      "price": 9000,
+      "description": "Porción individual.",
+      "image": "assets/img/pizza-porcion.webp",
+      "available": true
+    },
+    {
+      "id": "pb-024",
+      "category": "Hamburguesas de res",
+      "name": "Hamburguesa Súper Bob’s",
+      "price": 32000,
+      "description": "Patacón, vegetales, carne de res, pollo apanado, jamón, tocineta, doble queso, huevo de codorniz, papa chip y papa a la francesa.",
+      "image": "assets/img/burger-hero.webp",
+      "available": true
+    },
+    {
+      "id": "pb-025",
+      "category": "Hamburguesas de res",
+      "name": "Cangre Burger",
+      "price": 28000,
+      "description": "Pan, vegetales, carne de res, chorizo, huevo frito, tocineta, queso, huevo de codorniz, papa chip y papa a la francesa.",
+      "image": "assets/img/burger-super.webp",
+      "available": true
+    },
+    {
+      "id": "pb-026",
+      "category": "Hamburguesas de res",
+      "name": "Hamburguesa Texana",
+      "price": 27000,
+      "description": "Pan, vegetales, carne de res, maíz, chorizo, guacamole, queso, huevo de codorniz, papa chip y papa a la francesa.",
+      "image": "assets/img/burger-texana.webp",
+      "available": true
+    },
+    {
+      "id": "pb-027",
+      "category": "Hamburguesas de res",
+      "name": "Doble carne mixta",
+      "price": 26000,
+      "description": "Pan, vegetales, carne de res, pollo apanado, doble queso, huevo de codorniz y papa chip.",
+      "image": "assets/img/burger-doble.webp",
+      "available": true
+    },
+    {
+      "id": "pb-028",
+      "category": "Hamburguesas de res",
+      "name": "Doble carne de res",
+      "price": 25000,
+      "description": "Pan, vegetales, dos carnes de res, doble queso, huevo de codorniz y papa chip.",
+      "image": "assets/img/burger-doble.webp",
+      "available": true
+    },
+    {
+      "id": "pb-029",
+      "category": "Hamburguesas de res",
+      "name": "Especial con todo",
+      "price": 24000,
+      "description": "Pan, vegetales, carne de res, queso, jamón, tocineta, huevo de codorniz y papa chip.",
+      "image": "assets/img/burger-res.webp",
+      "available": true
+    },
+    {
+      "id": "pb-030",
+      "category": "Hamburguesas de res",
+      "name": "Patacón de res",
+      "price": 22000,
+      "description": "Patacón, vegetales, carne de res, jamón, queso, huevo de codorniz y papa chip.",
+      "image": "assets/img/burger-patacon.webp",
+      "available": true
+    },
+    {
+      "id": "pb-031",
+      "category": "Hamburguesas de res",
+      "name": "Tocineta y queso",
+      "price": 19000,
+      "description": "Pan, vegetales, carne de res, tocineta, queso, huevo de codorniz y papa chip.",
+      "image": "assets/img/burger-res.webp",
+      "available": true
+    },
+    {
+      "id": "pb-032",
+      "category": "Hamburguesas de res",
+      "name": "Jamón y queso",
+      "price": 15000,
+      "description": "Pan, vegetales, carne de res, jamón, queso, huevo de codorniz y papa chip.",
+      "image": "assets/img/burger-res.webp",
+      "available": true
+    },
+    {
+      "id": "pb-033",
+      "category": "Hamburguesas de res",
+      "name": "Con queso",
+      "price": 14000,
+      "description": "Pan, vegetales, carne de res, queso, huevo de codorniz y papa chip.",
+      "image": "assets/img/burger-res.webp",
+      "available": true
+    },
+    {
+      "id": "pb-034",
+      "category": "Pollo apanado",
+      "name": "Doble pollo apanado",
+      "price": 27000,
+      "description": "Pan, vegetales, dos pollos apanados, doble queso, huevo de codorniz y papa chip.",
+      "image": "assets/img/burger-pollo.webp",
+      "available": true
+    },
+    {
+      "id": "pb-035",
+      "category": "Pollo apanado",
+      "name": "Especial pollo apanado",
+      "price": 25000,
+      "description": "Pan, vegetales, pollo apanado, queso, doble jamón, tocineta, huevo de codorniz y papa chip.",
+      "image": "assets/img/burger-pollo.webp",
+      "available": true
+    },
+    {
+      "id": "pb-036",
+      "category": "Pollo apanado",
+      "name": "Patacón con pollo apanado",
+      "price": 23000,
+      "description": "Patacón maduro, vegetales, pollo apanado, queso, huevo de codorniz y papa chip.",
+      "image": "assets/img/burger-pollo.webp",
+      "available": true
+    },
+    {
+      "id": "pb-037",
+      "category": "Pollo apanado",
+      "name": "Pollo apanado con tocineta",
+      "price": 22000,
+      "description": "Pan, vegetales, pollo apanado, tocineta, queso y papa chip.",
+      "image": "assets/img/burger-pollo.webp",
+      "available": true
+    },
+    {
+      "id": "pb-038",
+      "category": "Pollo apanado",
+      "name": "Pollo apanado con jamón y queso",
+      "price": 18000,
+      "description": "Pan, vegetales, pollo apanado, jamón, queso y papa chip.",
+      "image": "assets/img/burger-pollo.webp",
+      "available": true
+    },
+    {
+      "id": "pb-039",
+      "category": "Pollo apanado",
+      "name": "Pollo apanado con queso",
+      "price": 17000,
+      "description": "Pan, vegetales, pollo apanado, queso, huevo de codorniz y papa chip.",
+      "image": "assets/img/burger-pollo.webp",
+      "available": true
+    },
+    {
+      "id": "pb-040",
+      "category": "Perros calientes",
+      "name": "Perro Súper Bob’s",
+      "price": 25000,
+      "description": "Pan jumbo, salchicha americana, cebolla, pollo, carne, tocineta, queso, huevo de codorniz, papa chip y papa a la francesa.",
+      "image": "assets/img/perro-super.webp",
+      "available": true
+    },
+    {
+      "id": "pb-041",
+      "category": "Perros calientes",
+      "name": "Perro americano",
+      "price": 16000,
+      "description": "Pan jumbo, salchicha americana, cebolla, queso, tocineta, huevo de codorniz y papa chip.",
+      "image": "assets/img/perro-americano.webp",
+      "available": true
+    },
+    {
+      "id": "pb-042",
+      "category": "Perros calientes",
+      "name": "Choriperro",
+      "price": 16000,
+      "description": "Pan jumbo, chorizo, cebolla, tocineta, queso, huevo de codorniz y papa chip.",
+      "image": "assets/img/perro-especial.webp",
+      "available": true
+    },
+    {
+      "id": "pb-043",
+      "category": "Salchipapas",
+      "name": "Súper Calamardo",
+      "price": 32000,
+      "description": "Una salchicha americana, dos chorizos, dos porciones de papa, tocineta, tres huevos de codorniz, pollo, carne, triple queso y trocitos de plátano.",
+      "image": "assets/img/salchipapa-grande.webp",
+      "available": true
+    },
+    {
+      "id": "pb-044",
+      "category": "Salchipapas",
+      "name": "Salchipapa Súper Bob’s",
+      "price": 22000,
+      "description": "Una salchicha americana, un chorizo, dos porciones de papa, tocineta, dos huevos de codorniz y doble queso.",
+      "image": "assets/img/salchipapa.webp",
+      "available": true
+    },
+    {
+      "id": "pb-045",
+      "category": "Salchipapas",
+      "name": "Salchipapa americana",
+      "price": 16000,
+      "description": "Una salchicha americana, una porción de papa, queso y un huevo de codorniz.",
+      "image": "assets/img/salchipapa.webp",
+      "available": true
+    },
+    {
+      "id": "pb-046",
+      "category": "Salchipapas",
+      "name": "Choripapa",
+      "price": 16000,
+      "description": "Dos chorizos parrilla, una porción de papa, queso y un huevo de codorniz.",
+      "image": "assets/img/salchipapa.webp",
+      "available": true
+    },
+    {
+      "id": "pb-047",
+      "category": "Especiales",
+      "name": "Mazorcada",
+      "price": 30000,
+      "description": "Maíz, carne desmechada, pollo desmechado, chorizo, queso gratinado, papa chip, salsa BBQ, salsa showy y huevo de codorniz.",
+      "image": "assets/img/salchipapa.webp",
+      "available": true
+    },
+    {
+      "id": "pb-048",
+      "category": "Especiales",
+      "name": "Alitas BBQ",
+      "price": 28000,
+      "description": "500 g de alitas (8–10 piezas) con papa a la francesa.",
+      "image": "assets/img/alitas.webp",
+      "available": true
+    },
+    {
+      "id": "pb-049",
+      "category": "Especiales",
+      "name": "Costillas BBQ",
+      "price": 28000,
+      "description": "400 g de costillas con papa a la francesa.",
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "pb-050",
+      "category": "Especiales",
+      "name": "Lasaña",
+      "price": 24000,
+      "description": "Pollo, salsa boloñesa, champiñón, pasta y queso.",
+      "image": "assets/img/lasana.webp",
+      "available": true
+    },
+    {
+      "id": "pb-051",
+      "category": "Especiales",
+      "name": "Nuggets",
+      "price": 16000,
+      "description": "Una porción de papas y seis nuggets de pollo.",
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "pb-052",
+      "category": "Especiales",
+      "name": "Porción de papa a la francesa",
+      "price": 6000,
+      "description": "",
+      "image": "assets/img/papas.webp",
+      "available": true
+    },
+    {
+      "id": "pb-053",
+      "category": "Bebidas",
+      "name": "Jugo natural en agua",
+      "price": 8000,
+      "description": "Sabores: Maracuyá, Fresa, Mora, Lulo, Guanábana, Mango.",
+      "image": "assets/img/jugo.webp",
+      "available": true,
+      "options": {
+        "label": "Sabor",
+        "values": [
+          "Maracuyá",
+          "Fresa",
+          "Mora",
+          "Lulo",
+          "Guanábana",
+          "Mango"
+        ]
+      }
+    },
+    {
+      "id": "pb-054",
+      "category": "Bebidas",
+      "name": "Jugo natural en leche",
+      "price": 9000,
+      "description": "Sabores: Maracuyá, Fresa, Mora, Lulo, Guanábana, Mango.",
+      "image": "assets/img/jugo.webp",
+      "available": true,
+      "options": {
+        "label": "Sabor",
+        "values": [
+          "Maracuyá",
+          "Fresa",
+          "Mora",
+          "Lulo",
+          "Guanábana",
+          "Mango"
+        ]
+      }
+    },
+    {
+      "id": "pb-055",
+      "category": "Bebidas",
+      "name": "Malteada",
+      "price": 17000,
+      "description": "Sabores: Vainilla, Chocolate, Frutos rojos, Café, Brownie, Tres leches, Mora, Fresa, Arequipe, Maracuyá.",
+      "image": "assets/img/malteada.webp",
+      "available": true,
+      "options": {
+        "label": "Sabor",
+        "values": [
+          "Vainilla",
+          "Chocolate",
+          "Frutos rojos",
+          "Café",
+          "Brownie",
+          "Tres leches",
+          "Mora",
+          "Fresa",
+          "Arequipe",
+          "Maracuyá"
+        ]
+      }
+    },
+    {
+      "id": "pb-056",
+      "category": "Bebidas",
+      "name": "Malteada Súper Bob",
+      "price": 22000,
+      "description": "",
+      "image": "assets/img/malteada-brownie.webp",
+      "available": true
+    },
+    {
+      "id": "pb-057",
+      "category": "Bebidas",
+      "name": "Jugo Hit 350 ml",
+      "price": 3500,
+      "description": "",
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "pb-058",
+      "category": "Bebidas",
+      "name": "Gaseosa 350 ml",
+      "price": 3500,
+      "description": "",
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "pb-059",
+      "category": "Bebidas",
+      "name": "Jugo Hit 500 ml",
+      "price": 4500,
+      "description": "",
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "pb-060",
+      "category": "Bebidas",
+      "name": "Cerveza en lata",
+      "price": 4500,
+      "description": "",
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "pb-061",
+      "category": "Bebidas",
+      "name": "Jugo Hit 1 litro",
+      "price": 6500,
+      "description": "",
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "pb-062",
+      "category": "Bebidas",
+      "name": "Gaseosa 1,5 litros",
+      "price": 7000,
+      "description": "",
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "pb-063",
+      "category": "Bebidas",
+      "name": "Coca-Cola 1,5 litros",
+      "price": 8000,
+      "description": "",
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "pb-064",
+      "category": "Bebidas",
+      "name": "Limonada natural",
+      "price": 8000,
+      "description": "",
+      "image": "assets/img/limonada.webp",
+      "available": true
+    },
+    {
+      "id": "pb-065",
+      "category": "Bebidas",
+      "name": "Limonada de coco",
+      "price": 12000,
+      "description": "",
+      "image": "assets/img/limonada.webp",
+      "available": true
+    }
+  ]
+}
